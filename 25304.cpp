@@ -9,9 +9,9 @@ int main()
 	cin>>X;
 	cin>>N;
 	
-	for (int i = 1; i <= N; i++)
+	for (int i = 1; i <= N; i++) //c++은 반복문 초기문에서 변수 선언과 값 설정 가능
 	{
-		cin>>a>>b;
+		cin>>a>>b; // 공백을 기준으로 두 개를 구분해서 받음
 		total += a*b;
 	}
 	
